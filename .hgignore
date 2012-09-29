@@ -1,4 +1,7 @@
 syntax: glob
+#-- specific data file that should be downloaded through the books website
+*.dat
+
 #-- OS Junk files
 [Tt]humbs.db
 
@@ -35,20 +38,7 @@ _ReSharper.*/
 build/
 build.txt
 
-#-- InstallAware output
-Release/
-
-#-- CaseMax specific directories that are copied down
-database/bak/
-external-bin/
-
 #-- files that are created running certain bat files
 *bat.log
 *log.txt
 
-#-- CaseMax specific directories that are updated during each build
-PRS.CMS/internal-bin/
-PRS.CMS.ImageExport/internal-bin/
-*.Intranet/Workpoint/Applet/
-documentation/api/assemblies
-documentation/api/dependencies
